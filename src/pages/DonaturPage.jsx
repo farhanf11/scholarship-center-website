@@ -14,11 +14,11 @@ function DonaturPage() {
         <>
             <Navbar />
 
-            <section class="container mx-auto flex-col px-6 py-4 mt-5 bg-white shadow">
-                <p class="text-xl font-bold text-gray-800">Daftar Donatur</p>
+            <section className="container mx-auto flex-col px-6 py-4 mt-5 bg-white shadow">
+                <p className="text-xl font-bold text-gray-800">Daftar Donatur</p>
             </section>
 
-            <section class="container mx-auto">
+            <section className="container mx-auto">
                 <div className="flex justify-center ">
                     <div>
                         <a href="{donatur}" className="my-5 flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100">

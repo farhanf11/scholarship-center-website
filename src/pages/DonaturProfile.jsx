@@ -9,8 +9,8 @@ function DonaturProfile(){
         <>
             <Navbar/>
             
-            <section class="container mx-auto flex-col px-6 py-4 mt-5 bg-white shadow">
-                <p class="text-xl font-bold text-gray-800">Donatur Profile</p>
+            <section className="container mx-auto flex-col px-6 py-4 mt-5 bg-white shadow">
+                <p className="text-xl font-bold text-gray-800">Donatur Profile</p>
             </section>
 
             <div className="flex justify-center">
@@ -20,72 +20,72 @@ function DonaturProfile(){
                 </div>
             </div>
             <Link to='/formdonatur' className='pl-10'>
-                <button class="px-5 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none">Upload Beasiswa</button>
+                <button className="px-5 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none">Upload Beasiswa</button>
             </Link>
 
-            <div class="container mx-auto flex-col my-5">                
-                <div class="align-middle inline-block min-w-full shadow overflow-hidden bg-white shadow-dashboard px-8 pt-3 rounded-bl-lg rounded-br-lg">
-                    <p class="text-xl font-bold text-gray-800 mb-2">Daftar Mahasiswa</p>
-                    <table class="min-w-full">
+            <div className="container mx-auto flex-col my-5">                
+                <div className="align-middle inline-block min-w-full shadow overflow-hidden bg-white shadow-dashboard px-8 pt-3 rounded-bl-lg rounded-br-lg">
+                    <p className="text-xl font-bold text-gray-800 mb-2">Daftar Mahasiswa</p>
+                    <table className="min-w-full">
                         <thead>
                             <tr>
-                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left leading-4 text-blue-500 tracking-wider">ID</th>
-                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Fullname</th>
-                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Email</th>
-                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Phone</th>
-                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Status</th>
-                                <th class="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Created At</th>
-                                <th class="px-6 py-3 border-b-2 border-gray-300"></th>
+                                <th className="px-6 py-3 border-b-2 border-gray-300 text-left leading-4 text-blue-500 tracking-wider">ID</th>
+                                <th className="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Fullname</th>
+                                <th className="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Email</th>
+                                <th className="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Phone</th>
+                                <th className="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Status</th>
+                                <th className="px-6 py-3 border-b-2 border-gray-300 text-left text-sm leading-4 text-blue-500 tracking-wider">Created At</th>
+                                <th className="px-6 py-3 border-b-2 border-gray-300"></th>
                             </tr>
                         </thead>
-                        <tbody class="bg-white">
+                        <tbody className="bg-white">
                             <tr>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-500">
-                                    <div class="flex items-center">
+                                <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-500">
+                                    <div className="flex items-center">
                                         <div>
-                                            <div class="text-sm leading-5 text-gray-800">#1</div>
+                                            <div className="text-sm leading-5 text-gray-800">#1</div>
                                         </div>
                                     </div>
                                 </td>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-500">
-                                    <div class="text-sm leading-5 text-blue-900">Damilare Anjorin</div>
+                                <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-500">
+                                    <div className="text-sm leading-5 text-blue-900">Damilare Anjorin</div>
                                 </td>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">damilareanjorin1@gmail.com</td>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">+2348106420637</td>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">
-                                    <span class="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                                    <span aria-hidden class="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
-                                    <span class="relative text-xs">diterima</span>
+                                <td className="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">damilareanjorin1@gmail.com</td>
+                                <td className="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">+2348106420637</td>
+                                <td className="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">
+                                    <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                                    <span aria-hidden className="absolute inset-0 bg-green-200 opacity-50 rounded-full"></span>
+                                    <span className="relative text-xs">diterima</span>
                                 </span>
                                 </td>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-500 text-blue-900 text-sm leading-5">September 12</td>
-                                <td class="px-6 py-4 whitespace-no-wrap text-right border-b border-gray-500 text-sm leading-5">
-                                    <button class="px-5 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none">Check Mahasiswa</button>
+                                <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-500 text-blue-900 text-sm leading-5">September 12</td>
+                                <td className="px-6 py-4 whitespace-no-wrap text-right border-b border-gray-500 text-sm leading-5">
+                                    <button className="px-5 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none">Check Mahasiswa</button>
                                 </td>
                           </tr>
                           <tr>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-500">
-                                    <div class="flex items-center">
+                                <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-500">
+                                    <div className="flex items-center">
                                         <div>
-                                            <div class="text-sm leading-5 text-gray-800">#2</div>
+                                            <div className="text-sm leading-5 text-gray-800">#2</div>
                                         </div>
                                     </div>
                                 </td>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-500">
-                                    <div class="text-sm leading-5 text-blue-900">Damilare Anjorin</div>
+                                <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-500">
+                                    <div className="text-sm leading-5 text-blue-900">Damilare Anjorin</div>
                                 </td>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">damilareanjorin1@gmail.com</td>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">+2348106420637</td>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">
-                                    <span class="relative inline-block px-3 py-1 font-semibold text-orange-900 leading-tight">
-                                    <span aria-hidden class="absolute inset-0 bg-orange-200 opacity-50 rounded-full"></span>
-                                    <span class="relative text-xs">ditolak</span>
+                                <td className="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">damilareanjorin1@gmail.com</td>
+                                <td className="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">+2348106420637</td>
+                                <td className="px-6 py-4 whitespace-no-wrap border-b text-blue-900 border-gray-500 text-sm leading-5">
+                                    <span className="relative inline-block px-3 py-1 font-semibold text-orange-900 leading-tight">
+                                    <span aria-hidden className="absolute inset-0 bg-orange-200 opacity-50 rounded-full"></span>
+                                    <span className="relative text-xs">ditolak</span>
                                 </span>
                                 </td>
-                                <td class="px-6 py-4 whitespace-no-wrap border-b border-gray-500 text-blue-900 text-sm leading-5">September 12</td>
-                                <td class="px-6 py-4 whitespace-no-wrap text-right border-b border-gray-500 text-sm leading-5">
+                                <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-500 text-blue-900 text-sm leading-5">September 12</td>
+                                <td className="px-6 py-4 whitespace-no-wrap text-right border-b border-gray-500 text-sm leading-5">
                                     <Link to='/listpendaftar'>
-                                        <button class="px-5 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none">Check Mahasiswa</button>
+                                        <button className="px-5 py-2 border-blue-500 border text-blue-500 rounded transition duration-300 hover:bg-blue-700 hover:text-white focus:outline-none">Check Mahasiswa</button>
                                     </Link>
                                 </td>
                           </tr>

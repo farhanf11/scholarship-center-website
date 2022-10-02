@@ -3,11 +3,9 @@ import React, {useState} from 'react';
 const Navbar = () => {
   let Links = [
     {name: "HOME", link:"/"},
-    {name: "SRVICE", link:"/"},
-    {name: "PRODUCT", link:"/"},
-    {name: "PROJECT", link:"/"},
-    {name: "ABOUT US", link:"/"},
-    {name: "CONTACT", link:"/"},
+    {name: "BEASISWA", link:"/beasiswa"},
+    {name: "PROFILE", link:"/profile"},
+    {name: "PROJECT", link:"/"}
   ]
   let [open, setOpen] = useState(false)
   return(
