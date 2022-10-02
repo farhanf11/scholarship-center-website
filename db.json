@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 10,
+      "title": "optio molestias 2",
+      "body": "doloribus qui repudiandae 22\nvero nisi sit\nquos veniam quod sed accusamus veritatis error",
+      "nominal": "200000",
+      "syarat": "maksimal semester 4",
+      "alamat": "Gedung Surachman, Kementerian Kelautan"
+    },
+    {
+      "userId": 2,
+      "id": 11,
+      "title": "audantium 2",
+      "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit",
+      "nominal": "51200000",
+      "syarat": "maksimal semester ",
+      "alamat": "Gedung Surachman, Kementerian Kelautan"      
+    },
+    {
+      "userId": 2,
+      "id": 20,
+      "title": "provident suscipit",
+      "nominal": "200000",
+      "syarat": "maksimal semester 4",
+      "alamat": "PT Sirandong, Kementerian Kelautan",
+      "body": "qui consequuntur ducimus possimus quisquam amet similique\nsuscipit porro ipsam ametios"
+    },
+    {
+      "userId": 3,
+      "id": 21,
+      "title": "asperiores update 3",
+      "nominal": "1200000",
+      "syarat": "maksimal semester 4",
+      "alamat": "PT Surachman, Kementerian Kelautan",
+      "body": "repellat aliquid praesentium dolorem quo\nsed totam minus non itaque"
+    },
+    {
+      "id": 1658462155787,
+      "title": "ecommerce website",
+      "body": "tocat store",
+      "nominal": "2400000",
+      "syarat": "maksimal semester 4",
+      "alamat": "Gedung Surachman, Kementerian Kelautan",
+      "userId": 1
+    },
+    {
+      "id": 1658828455509,
+      "title": "HIMF Organization website",
+      "body": "website lomba untuk himf UMJ",
+      "nominal": "4500000",
+      "syarat": "maksimal semester 4",
+      "alamat": "Gedung Surachman, Kementerian Kelautan",
+      "userId": 1
+    },
+    {
+      "id": 1658910935357,
+      "title": "name title",
+      "body": "name='title'name='title'name='title'name",
+      "nominal": "200000",
+      "syarat": "maksimal semester 4",
+      "alamat": "Gedung Surachman, Kementerian Kelautan",
+      "userId": 1
+    }
+  ]
+}
